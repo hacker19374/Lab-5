@@ -1,42 +1,6 @@
 ECCS 1611 – Introductory Programming Lab 5 – Iteration 
 
-## **IMPORTANT** 
 
-- Read this entire document before coding. 
-
-- **Take out your duck.** If you left it at home or it has gone missing, see us at the start of lab — we have spares. 
-
-- **<mark>Every problem in this lab asks you to predict what your program will print before you run it. Predictions are never marked right or wrong. A prediction that misses is information, and it is worth a journal entry.</mark>** 
-
-# **Your Duck and Your Journal, Week Five** 
-
-**The Duck-First Rule:** before asking your instructor, a TA, or a neighbor for help, explain the problem to your duck first and write one line in your journal about what you found. This is a step in the process, not a barrier — if you are stuck, frustrated, or out of ideas, come get help regardless of whether the duck cooperated. 
-
-**Loops and your duck.** A loop runs the same lines many times, so explaining each line once is not enough this week. For every loop, tell your duck three things: what the loop variable is on the _first_ pass, what it is on the _last_ pass, and what makes the loop stop. Most loop bugs live in one of those three answers. 
-
-Unless otherwise instructed, for each laboratory problem, keep adding to your debugging journal (same Google Doc, same three fields plus the problem name as the heading label): 
-
-1. What I expected the program to do 
-
-2. What it actually did 
-
-3. What assumption(s) of mine, if any, turned out to be wrong 
-
-Record every error you hit in each problem below, including the ones you fixed in ten seconds. Entries are checked for completion and effort only, never for content. 
-
-# **Before You Start — Demos and Repositories** 
-
-This applies to every problem in this lab. Read it **_<u>now</u>_** <u>, not at the end.</u> 
-
-- **Demo before you continue.** Demonstrate each working program to your instructor or a lab assistant, and get the signature on your checksheet, **before** you begin the next problem. The one exception is P51, which has no demo. 
-
-- **Then push it.** After each demo (or, for P5-1, when you finish it), create a new GitHub repository for that problem, commit your .cpp file, and push. One repository per program — do not put several problems in one repository. 
-
-- Name repositories to match the problem number: **P5-1, P5-2, P5-3, P5-4, and P5-5** . Use hyphens and no spaces — GitHub silently rewrites spaces, and then the name on your checksheet will not be the name on your account. 
-
-- Reminder: For each program, you have to make a new project in your Visual Studio IDE. 
-
-- Reminder: If a problem provides you with an example run, then your program must match exactly what you see, character by character, unless otherwise instructed. 
 
 **P5-1** Make a new project named P5-1, and type in the code below exactly as shown. The program adds 0.1 to a running total `PASSES` times, then compares the total with `PASSES / 10.0` , which is what arithmetic says it should be. Predict what each result will be by filling in the first column of the P5-1 section of your checksheet, then run the program six times, initially having PASSES set to 10, then increasing that value by an order of magnitude. Make sure to record every digit displayed. When done, push the code to your P5-1 repository. 
 
