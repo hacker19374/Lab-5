@@ -47,7 +47,7 @@ return 0;
 
    - (d) add up the integers from 1 through `n` and print the sum. 
 
-�(���) as a check on your loop. � 
+n(n+1) / 2 as a check on your loop.
 
 After the sum, print the value of the formula 
 
